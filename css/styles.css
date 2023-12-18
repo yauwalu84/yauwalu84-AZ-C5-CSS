@@ -1,0 +1,91 @@
+/*** General CSS Code that applies to all elements ***/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+div {
+    background-color: gray;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    
+}
+
+
+/*** Page Header CSS Code ***/
+
+header {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.page-header {
+    height: 90px;
+}
+
+.navigation {
+    background-color: white;
+    border: 0;
+    
+}
+nav ul {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+    gap: 5px;
+}
+
+ul li{
+    background-color: gray;
+    margin: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/*** Page Body CSS Code ***/
+
+main {
+    margin: 5px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    height: 200px;
+}
+
+
+.quick-link {
+    border: 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+
+}
+
+.quick-link2 {
+    grid-column-start: 1;
+}
+/*** Page Footer CSS Code ***/
+
+footer div{
+    margin: 5px 0;
+    height: 50px;
+
+}
