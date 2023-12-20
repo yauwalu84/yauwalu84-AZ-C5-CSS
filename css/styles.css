@@ -51,11 +51,13 @@ nav ul {
 ul li{
     background-color: gray;
     margin: 5px;
+    padding: 10px;
 }
 
 li a {
     text-decoration: none;
     color: white;
+    
     
 }
 
